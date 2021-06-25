@@ -106,7 +106,7 @@ local icons = {
   ["less"] = { icon = "", color="#563d7c", name = "Less"},
   ["lhs"] = { icon = "", color="#a074c4", name = "Lhs"},
   ["license"] = { icon = "", color="#cbcb41", name = "License"},
-  ["lua"] = { icon = "", color="#51a0cf", name = "Lua"},
+  ["lua"] = { icon = "", color="#000080", name = "Lua"},
   ["makefile"] = { icon = "", color="#6d8086", name = "Makefile"},
   ["markdown"] = { icon = "", color="#519aba", name = "Markdown"},
   ["md"] = { icon = "", color="#519aba", name = "Md"},
