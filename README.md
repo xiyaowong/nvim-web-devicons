@@ -36,6 +36,11 @@ require'nvim-web-devicons'.setup {
  -- globally enable default icons (default to false)
  -- will get overriden by `get_icons` option
  default = true;
+ -- available themes: default, nonioncs
+ -- recommand to use global variable nvim_web_devicons_theme for lazyloading.
+ -- lua: vim.g.nvim_web_devicons_theme = ''
+ -- viml: g:nvim_web_devicons_theme = ''
+ theme = 'default'
 }
 ```
 
@@ -59,6 +64,7 @@ require'nvim-web-devicons'.get_icon(filename, extension, { default = true })
 ```
 
 You can check if the setup function was already called with:
+
 ```lua
 require'nvim-web-devicons'.has_loaded()
 ```
