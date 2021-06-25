@@ -4,6 +4,7 @@ pyc|pyd|pyo         #519aba
 rs                  #dea584
 vim|.vimrc|.gvimrc  #019833
 js                  #cbcb41
-awk                 #4d5a5e Awk
-bash                #89e051 Bash
-rb                  #701516 Rb
+awk                 #4d5a5e
+bash                #89e051
+rb                  #701516
+lua                 #000080
